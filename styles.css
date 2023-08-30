@@ -357,8 +357,6 @@ margin-left: 15%;
     display: block;
 }
 
-
-
 @media only screen and (max-width: 970px) {
     
     .hamburger{
@@ -416,13 +414,7 @@ margin-left: 15%;
         color:white;
     }
 
-    .marquee-list{
-        
-        display: flex;
-        width: 100%;
-        margin-left: 20px;
-      }
-
+    
 
 
 
@@ -437,6 +429,32 @@ margin-left: 15%;
         color: rgb(244, 239, 239);
     
     }
+
+   
+
+    
+
+.namei{
+    margin-top: -14%;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;  
+    font-size: 10vh;
+    background-image: url(images/textbg.jpg);
+    background-size: cover;
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+
+
+    
+  }
+
+@media only screen and (max-width: 356px) {
+    
+    
 
     .intro{
         display: flex;
@@ -468,11 +486,16 @@ margin-left: 15%;
     color: transparent;
 
 }
+.marquee-list{
+        
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+  }
 
 
 
     
   }
-
 
 
